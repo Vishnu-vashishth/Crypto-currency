@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: monospace;
+    /* color: #555; */
+}
+body{
+    background-color: #eceff1;
+}
+.global-crypto{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eceff1;
+   
+}
+.navbar{
+    width: 100%;
+    min-height:20%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    background-color: #37474f ;
+    color: #fff;
+}
+#global-head{
+    width: 100%;
+    height: 15%;
+   margin-top: 5%;
+    text-align: center;
+}
+.global-status{
+    display: flex;
+    height: 60%;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.global-status-child{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* width: 50%; */
+    height: 90%;
+}
+.cards-container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #eceff1`;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15rem;
+    /* justify-content: center; */
+
+}
+.card{
+    width: 18rem;
+    height: 18rem;
+    background-color: #fff;
+    margin: 1.5rem;
+    margin-top: 5rem;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #16a085;
+    font-weight: 900;
+    font-size: 1.5rem;
+    box-shadow:  20px 20px 50px rgb(192, 192, 192), -0px -0px 20px rgba(0, 0, 0, 0.096);
+   
+}
+.top-10-heading{
+    width: 100%;
+    text-align: center;
+    height: 7.5rem;
+    padding-top: 3rem;
+    background-color: #fff;
+
+}
+
+@media screen and (max-width: 900px) {
+    .cards-container{
+        padding-left: 0px;
+        justify-content: center;
+    }
+    
+}
